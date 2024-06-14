@@ -9,11 +9,12 @@
     <!--Ionic icons CDN-->
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Discover Javelin's range of lifestyle smart watches. Choose the future in your hand.">
 </head>
 <body>
     <header>
         <nav class="nav">
-            <a href="index.html" class="nav-logo"></a>
+            <a href="index.html" class="nav-logo">Javelin</a>
             <ul class="nav-list">
                 <li class="nav-item">
                     <a href="index.html" class="nav-link">Home</a>
@@ -38,11 +39,11 @@
     </header>
 
     <section class="hero">
-        <div class="cirle cirle-small">
-            <img src="images/circle-small.png" alt="">
+        <div class="circle circle-small">
+            <img src="images/circle-small.png" alt="Small Circle">
         </div>
-        <div class="cirle cirle-large">
-            <img src="images/circle-large.png" alt="">
+        <div class="circle circle-large">
+            <img src="images/circle-large.png" alt="Large Circle">
         </div>
 
         <div class="container">
@@ -57,23 +58,40 @@
                     </p>
                     <a href="#" class="cta">Buy now</a>
                 </div>
+                <div class="watch-wrapper">
+                    <img src="/images/watch.png" alt="Smart Watch">
+                </div>
             </div>
         </div>
 
         <div class="overlay">
-            <div class="layer layer-1">
-
-            </div>
-            <div class="layer layer-2">
-                
-            </div>
-            <div class="layer layer-3">
-                
-            </div>
+            <div class="layer layer-1"></div>
+            <div class="layer layer-2"></div>
+            <div class="layer layer-3"></div>
         </div>
     </section>
 
-<!--Gsap CDN    -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/gsap.min.js"></script>
+    <!-- GSap CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/gsap.min.js"></script>
+    <script>
+        // Corrected GSAP syntax with delay value
+        gsap.to('.layer-1', { y: '-100vh', delay: .5 });
+        gsap.to('.layer-2', { y: '-100vh', delay: .7 });
+        gsap.to('.layer-3', { y: '-100vh', delay: .9 });
+        gsap.to('.overlay', {y: '-100vh', delay: 1.5});
+
+        gsap.fromTo('.text', {x: '30rem', opacity: 0},
+                             {x: 0, opacity: 1, ease: 'back.out(1.7)', delay: 1.9},
+        );
+        gsap.fromTo('.watch-wrapper', {x: '30rem', opacity: 0},
+                             {x: 0, opacity: 1, ease: 'back.out(1.7)', delay: 2.3},
+        );
+        gsap.fromTo('.circle-small', {x: '-30rem', opacity: 0},
+                             {x: 0, opacity: 1, ease: 'back.out(1.7)', delay: 1},
+        );
+        gsap.fromTo('.circle-large', {x: '-30rem', opacity: 0},
+                             {x: 0, opacity: 1, ease: 'back.out(1.7)', delay: 1.5},
+        );
+    </script>
 </body>
 </html>
