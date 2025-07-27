@@ -56,7 +56,7 @@ To show it off or use as a personal landing template!
 
 ## 📸 Preview
 
-![Watch Preview](images/watch.png)
+![Watch Preview](/source/images/preview.png)
 
 ---
 
