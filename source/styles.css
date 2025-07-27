@@ -127,17 +127,24 @@ header {
     font-size: calc(1rem + 4vw);
     font-weight: 800;
     line-height: 1.2;
+
+    & span {
+    color: #994fff;
+    }
 }
 
-.text h1 span {
-    color: #994fff;
-}
+
 
 .text h5 {
-    font-weight: 800;
-    font-size: 1.9rem;
-    margin: 8rem 0 4rem 0;
+  font-weight: 800;
+  font-size: 1.9rem;
+  margin: 8rem 0 4rem 0;
+
+  & span {
+    color: #994fff;
+  }
 }
+
 
 .text p {
     text-transform: lowercase;
