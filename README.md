@@ -15,16 +15,11 @@ larvenewatch-landing/
 └── styles.css
 ```
 
-
----
-
 ## 🧪 What's Inside?
 
 - `index.html` → The base structure of the landing page 💅  
 - `styles.css` → Custom styling for layout, bold text, fonts, and spacing 🎨  
 - `images/` → Product photo + decorative background elements (circles) 🌀⌚
-
----
 
 ## 🛠️ How to Run
 
@@ -32,7 +27,6 @@ larvenewatch-landing/
 2. Open `index.html` in your code editor and run it via HTML Live Extensions (Assuming you're using VsCode and its FOSS derrivatives).
 3. Behold the ✨fashionable power✨ of the LarveneWatch design.
 
----
 
 ## 📚 Tutorial Credit
 
@@ -42,7 +36,6 @@ It helped me understand how to create clean layouts, apply modern styling, and s
 I personalized some parts to fit my aesthetic and branding for LarveneWatch 🖤  
 Shout-out to the original creator for making it easier to learn front-end dev!
 
----
 
 ## 🌐 Optional: Host It Live
 
@@ -52,21 +45,15 @@ You can deploy this on:
 - Vercel  
 To show it off or use as a personal landing template!
 
----
-
 ## 📸 Preview
 
 ![Watch Preview](/source/images/preview.png)
-
----
 
 ## 💖 Credits
 
 - Project customized and maintained by **Commander KernelGhost / Larvene** 🧠⚙️  
 - Tutorial-based learning project  
 - Icons and assets belong to their respective creators (used for educational/demo purposes)
-
----
 
 ## 🦄 License
 
